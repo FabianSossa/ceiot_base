@@ -2,6 +2,7 @@
 
 Código para ejemplo básico de IoT
 
+agregado
 
 ![](./img/arch.png)]
 
