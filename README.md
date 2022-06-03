@@ -3,6 +3,7 @@
 Código para ejemplo básico de IoT
 
 agregado
+Esto es en entorno propio
 
 ![](./img/arch.png)
 
