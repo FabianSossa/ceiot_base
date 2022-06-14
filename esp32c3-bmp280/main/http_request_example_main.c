@@ -23,7 +23,7 @@
 #include "lwip/netdb.h"
 #include "lwip/dns.h"
 #include <bmp280.h>
-#include "/home/iot/esp/ceiot_base/config/config.h"   // esto es mejorable...
+#include "/home/usr_ceiot_base/esp/ceiot_base/esp32c3-bmp280/config.h"   // esto es mejorable...
 
 /* Constants that aren't configurable in menuconfig */
 #define WEB_SERVER API_IP
@@ -45,9 +45,9 @@ static char *REQUEST_POST = "POST " WEB_PATH " HTTP/1.0\r\n"
     "Host: "WEB_SERVER":"WEB_PORT"\r\n"
     "User-Agent: esp-idf/1.0 esp32c3 devkitC\r\n"
     "Content-Type: application/x-www-form-urlencoded\r\n"
-    "Content-Length: 20\r\n"
+    "Content-Length: 40\r\n"
     "\r\n"
-    "id=" DEVICE_ID "&t=%0.2f&h=%0.2f";
+    "id=" DEVICE_ID "&key=" DEVICE_KEY "&t=%0.2f&h=%0.2f&p=%0.2f";
 
 static void http_get_task(void *pvParameters)
 {
@@ -60,7 +60,7 @@ static void http_get_task(void *pvParameters)
     int s, r;
     char recv_buf[64];
 
-    char send_buf[256];
+    char send_buf[512];
 
     bmp280_params_t params;
     bmp280_init_default_params(&params);
@@ -83,7 +83,7 @@ static void http_get_task(void *pvParameters)
             ESP_LOGI(TAG, "Pressure: %.2f Pa, Temperature: %.2f C", pressure, temperature);
 //            if (bme280p) {
                 ESP_LOGI(TAG,", Humidity: %.2f\n", humidity);
-                sprintf(send_buf, REQUEST_POST, temperature , humidity );
+                sprintf(send_buf, REQUEST_POST, temperature , humidity, pressure );
 //	    } else {
 //                sprintf(send_buf, REQUEST_POST, temperature , 0);
 //            }
