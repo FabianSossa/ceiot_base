@@ -17,14 +17,18 @@ link
 El trabajo práctico tiene como principal objetivo unir tecnologıas IoT (Internet of Things) con
 el cultivo hortícola en huertos urbanos, que con el tiempo se están volviendo mas comunes en
 terrazas y balcones.
+
 Las razones de esta nueva moda urbana son diversas. El creciente uso de productos quımicos
 en los cultivos tradicionales, ası como el crecimiento del mercado de productos transg ́enicos son
 un motivo de reflexión que está incrementando la venta de productos ecológicos en la sociedad.
+
 Se desarrollar ́a una solucion capaz de brindar el servicio a invernaderos de distintos clientes,
 ofreciendo una herramienta centralizada, donde se pueda consultar las distintas metricas
 definidas por el usuario.
+
 Se desarrollara la solucion en entornos propios usando tecnolog ́ıas de software libre, la conexión
 de los dispositivos será de manera inalámbrica (Wi-Fi).
+
 Los datos recolectados por los sensores son enviados al servidor, ante eventuales cortes de
 comunicación debe existir un mecanismo de retención de la informacion, la comunicación cliente-
 servidor se lleva a cabo a través del protocolo MQTT.
