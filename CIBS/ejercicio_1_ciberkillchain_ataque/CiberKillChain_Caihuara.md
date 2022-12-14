@@ -40,7 +40,7 @@ conectados al servidor, se debera ademas visualizar el estado actual en un table
 y notificaciones y gestionar la información mediante una API, para permitir al usuario descargar
 los datos en algún formato definido como csv, xlsx, pdf, etc.
 
-![](/Diagrama_bloques.png)
+![](Diagrama_bloques.png)
 
 ### Instrucciones
 
