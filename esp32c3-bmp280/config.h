@@ -5,7 +5,7 @@
 #define API_IP_PORT   API_IP ":" API_PORT
 
 #define WIFI_SSID     "SOSSATP"
-#define WIFI_PASSWORD "rocochito15"
+#define WIFI_PASSWORD "***********"
 
 #define DEVICE_ID     "23"
 #define DEVICE_KEY    "234567"
