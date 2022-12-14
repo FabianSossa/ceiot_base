@@ -51,9 +51,9 @@ La solucion en analisis, corresponde a un servicio que provee por una parte el h
 en la nube para registro de telemetria de los sensores y control remoto del cultivo, los usuarios finales pueden o no tener conocimientos de medidas
 de ciberseguridad, que puedan ayudar a mantener seguro el funcionamiento y la veracidad de los datos y acciones recolectados por sensores y actuadores
 
-  - Active Scanning (T1595): La solucion al estar implementada sobre redes WIFI domesticas, permitiria ejecutar escaneos de reconocimiento activos para recopilar informacion de los paquetes nativos de red que se transmiten. 
-  - Gather Victim Host Information (T1592): Se puede realizar un analisis de informacion de la red domestica del usuario final, con la finalidad de identificar que la solucion tiene conectado un dispositivo Raspberry PI, y los servicios que estan corriendo sobre la plataforma, detectar los sensores y actuadores que se conectan mediante el microcontrolador ESP32-C3
-  - Phishing for information (T1598): Al ser usuarios finales con o sin conocimientos sobre phishing para obtener informacion confidencial como ser usuario y contraseña a la web de monitoreo, donde el usuario tiene control y configuracion de parametros de sus cultivos remotos.
+    - Active Scanning (T1595): La solucion al estar implementada sobre redes WIFI domesticas, permitiria ejecutar escaneos de reconocimiento activos para recopilar informacion de los paquetes nativos de red que se transmiten. 
+    - Gather Victim Host Information (T1592): Se puede realizar un analisis de informacion de la red domestica del usuario final, con la finalidad de identificar que la solucion tiene conectado un dispositivo Raspberry PI, y los servicios que estan corriendo sobre la plataforma, detectar los sensores y actuadores que se conectan mediante el microcontrolador ESP32-C3
+    - Phishing for information (T1598): Al ser usuarios finales con o sin conocimientos sobre phishing para obtener informacion confidencial como ser usuario y contraseña a la web de monitoreo, donde el usuario tiene control y configuracion de parametros de sus cultivos remotos.
 
 * Weaponization
   - Puedo preparar un bombardeo.
