@@ -77,11 +77,11 @@ de ciberseguridad, que puedan ayudar a mantener seguro el funcionamiento y la ve
   - Persistir servicios remotos y control de escritorio remoto de Raspberry PI de la red.
 
 #### Command & Control
-  - Si la manipulacion de las cuentas fue exitosa y no fue detectada los ingresos por algun log de la aplicacion por parte d elos usuarios se puede avanzar con el escalamiento de privilegios pra poder obtener informacion personal del ususario y de otros usuarios como medios de pago por el servicio de monitoreo.
-  - Si la persistencia de acceso remoto y control es exitosa se controlar el trafico de red y realizar un escalamiento horizontal y registrar o llegara a controlar otros sistemas o equipos conectados a la red domestica.
+  - Si la manipulacion de las cuentas fue exitosa y no fue detectada los ingresos por algun log de la aplicacion por parte de los usuarios se puede avanzar con el escalamiento de privilegios para poder obtener informacion personal del ususario y de otros usuarios como medios de pago por el servicio de monitoreo.
+  - Si la persistencia de acceso remoto y control es exitosa, se controlar el trafico de red y realizar un escalamiento horizontal y registrar o llegara a controlar otros sistemas o equipos conectados a la red domestica.
   
 #### Actions on Objectives
-  - Realizar daños a los cultivos para despresttigiar el servicio ofrecido por la plataforma.
+  - Realizar daños a los cultivos para desprestigiar el servicio ofrecido por la plataforma.
   - Desplazamiento horizontal para tener acceso a otros sistemas domesticos de camaras y domotica del domicilio.
   - Daño en los dispositivos de hardware (sensores, actuadores y controladores).
   - Denegacion de servicio.

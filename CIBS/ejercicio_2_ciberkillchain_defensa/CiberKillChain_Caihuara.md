@@ -17,7 +17,7 @@ Desarrollar la defensa en función del ataque planteado en orden inverso.
 
 - Medida de prevencion, capacitar a los usuarios finales sobre como debe cambiar una contraseña en caso de necesitarlo y poner advertencias para que los clientes no caigan en algun engaño donde brinden sus contraseñas ante un ataque de phishing o smishing.
 - Uso de herramientas IDS/IPS para la deteccion de comportamientos anomalos.
-- Definicion de permisos minimos y limitacion de conexion enrantes y salientes de los distintos componentes en la nube.
+- Definicion de permisos minimos y limitacion de conexion entrantes y salientes de los distintos componentes en la nube.
 
 #### Command and Control
 
@@ -27,7 +27,7 @@ Desarrollar la defensa en función del ataque planteado en orden inverso.
 #### Installation
 
 - Uso de doble factor de autenticación para el usuario.
-- Realizar un control y log de logueo de region de cada usuario para identificar posibles infiltraciones.
+- Realizar un control y log de logueo de region de inicio de sesion de cada usuario para identificar posibles infiltraciones.
 - Configurar permisos de autenticacion customizados en la versión de SO de Raspberry.
 
 #### Exploitation
