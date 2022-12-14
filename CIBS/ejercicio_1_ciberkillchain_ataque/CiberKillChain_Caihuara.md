@@ -57,8 +57,11 @@ de ciberseguridad, que puedan ayudar a mantener seguro el funcionamiento y la ve
   - Phishing for information (T1598): Al ser usuarios finales con o sin conocimientos sobre phishing para obtener informacion confidencial como ser usuario y contraseña a la web de monitoreo, donde el usuario tiene control y configuracion de parametros de sus cultivos remotos.
 
 #### Weaponization
-  - Puedo preparar un bombardeo.
-  - Puedo preparar un equipo de comandos de sabotage.
+##### Hardware
+  - Vulnerabilidades ESP32 C3: Ataque de fallas de voltaje (CVE-2019-17391), 
+  - Vulnerabilidades Raspberry PI: Ataque de access point en RPi (CVE-2020-24572), Elevacion de privilegios mediante un proceso de debug (CVE-2018-18068)
+##### Software
+  - Identificar cuenta de los servicios de monitoreo y control remoto de cultivos de usuarios mediante Phishing, para obtener informacion personal de los usuarios de medios de pagos, llegara a poder escalar de manera horizontal y llegar a tener privilegios de administracion.
   
 #### Delivery
   - Envío al equipo de sabotage a la playa cercana en submarino.
