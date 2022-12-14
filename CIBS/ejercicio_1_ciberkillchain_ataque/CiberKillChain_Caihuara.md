@@ -42,10 +42,11 @@ los datos en algún formato definido como csv, xlsx, pdf, etc.
 
 ![](Diagrama_bloques.png)
 
+## Resolución
 
-### Ejemplo adaptado a un juego de guerra inventado:
+### Ciber Kill Chain :
 
-* Reconnaissance
+#### Reconnaissance
 
 La solucion en analisis, corresponde a un servicio que provee por una parte el hardware (sensores y actuadores) que tiene comunicacion con una API, 
 en la nube para registro de telemetria de los sensores y control remoto del cultivo, los usuarios finales pueden o no tener conocimientos de medidas
@@ -55,31 +56,30 @@ de ciberseguridad, que puedan ayudar a mantener seguro el funcionamiento y la ve
   - Gather Victim Host Information (T1592): Se puede realizar un analisis de informacion de la red domestica del usuario final, con la finalidad de identificar que la solucion tiene conectado un dispositivo Raspberry PI, y los servicios que estan corriendo sobre la plataforma, detectar los sensores y actuadores que se conectan mediante el microcontrolador ESP32-C3
   - Phishing for information (T1598): Al ser usuarios finales con o sin conocimientos sobre phishing para obtener informacion confidencial como ser usuario y contraseña a la web de monitoreo, donde el usuario tiene control y configuracion de parametros de sus cultivos remotos.
 
-* Weaponization
+#### Weaponization
   - Puedo preparar un bombardeo.
   - Puedo preparar un equipo de comandos de sabotage.
   
-* Delivery
+#### Delivery
   - Envío al equipo de sabotage a la playa cercana en submarino.
   
-* Exploit
+#### Exploit
   - El equipo logra desembarcar sin incidentes en la playa.
   
-* Installation  
+#### Installation  
   - El equipo se hace pasar por una compañia de circo como camuflaje.
 
-* Command & Control
+#### Command & Control
   - Podría utilizar palomas mensajeras.
   - Podría utilizar Super High TeraHertz Radio que el adversario no puede detectar, eso haré.
   
-* Actions on Objectives
+#### Actions on Objectives
   - El equipo de comandos provoca daños menores en las cañerías.
   - El equipo de comandos coloca minas en el puerto.
   
 
 
 
-## Resolución
 
 
   
