@@ -42,23 +42,18 @@ los datos en algún formato definido como csv, xlsx, pdf, etc.
 
 ![](Diagrama_bloques.png)
 
-### Instrucciones
-
-El escenario debe ser con el sistema ya funcionando en el futuro.
-
-Debe ser en primera persona, es el punto de vista del atacante.
-
-Es recomendable hacer dos o tres pasadas, en la primera la idea, en las siguientes refinamientos especificando las técnicas.
-PURO ATAQUE, nada de andar pensando cómo corregir nada.
-
-Para cada etapa, si hay varias medidas posibles, ordenar dejando para lo último lo que se va a hacer en el siguiente paso.
 
 ### Ejemplo adaptado a un juego de guerra inventado:
 
 * Reconnaissance
-  - Imagen satelital identifica una pista de aterrizaje.
-  - Espías dicen que por el puerto entra el combustible.
-  - Espías locales dicen que la playa cercana no tiene buena vigilancia.
+
+La solucion en analisis, corresponde a un servicio que provee por una parte el hardware (sensores y actuadores) que tiene comunicacion con una API, 
+en la nube para registro de telemetria de los sensores y control remoto del cultivo, los usuarios finales pueden o no tener conocimientos de medidas
+de ciberseguridad, que puedan ayudar a mantener seguro el funcionamiento y la veracidad de los datos y acciones recolectados por sensores y actuadores
+
+  - Active Scanning (T1595): La solucion al estar implementada sobre redes WIFI domesticas, permitiria ejecutar escaneos de reconocimiento activos para recopilar informacion de los paquetes nativos de red que se transmiten. 
+  - Gather Victim Host Information (T1592): Se puede realizar un analisis de informacion de la red domestica del usuario final, con la finalidad de identificar que la solucion tiene conectado un dispositivo Raspberry PI, y los servicios que estan corriendo sobre la plataforma, detectar los sensores y actuadores que se conectan mediante el microcontrolador ESP32-C3
+  - Phishing for information (T1598): Al ser usuarios finales con o sin conocimientos sobre phishing para obtener informacion confidencial como ser usuario y contraseña a la web de monitoreo, donde el usuario tiene control y configuracion de parametros de sus cultivos remotos.
 
 * Weaponization
   - Puedo preparar un bombardeo.
